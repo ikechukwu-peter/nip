@@ -1,18 +1,15 @@
-## Foodie
+## Nip
 
-> A food recipe web application for creating and getting recipes
+> A secure URL shortener with qrcode, password protection and expiration time
 
 ![screenshot](./assets/screen.gif)
 
 ## Built With 🌩️
 
-- React
-- TailwindCSS
-- ExpressJs
+- ReactJs
 - TypeScript
-- NodeJs
-- Cloudinary
-- MongoDB
+- TailwindCSS
+- SWR
 
 ## Live Demo ☁️
 
@@ -28,16 +25,9 @@ Install Node and npm using the `npm install` command on your command line, then 
 
 ### Setup
 
-Clone this repository by typing `git clone https://github.com/ikechukwu-peter/foodie.git` on your terminal.
+Clone this repository by typing `git clone https://github.com/ikechukwu-peter/nip-api.git` on your terminal.
 
 ## Installation
-
-The application contains two folders
-
-1. frontend
-2. backend
-
-Navigate to the project directory of your choice `cd frontend` or `cd backend` and run
 
 ```bash
 $ yarn install
@@ -45,8 +35,6 @@ $ yarn install
 
 ## Running the app
 
-#### Running the frontend
-
 ```bash
 # development
 $ yarn dev
@@ -54,33 +42,17 @@ $ yarn dev
 # build
 $ yarn build
 
-# preview
-$ yarn preview
-```
-
-### Usage
-
-While inside the foodie/frontend, run `yarn dev`. This will open a development server.
-
-### Running the backend
-
-```bash
-# development
-$ yarn dev
-
-# build
-$ yarn build
-
-# linting
-$ yarn lint
-
-# formatting
+# format with prettier
 $ yarn format
+
+
+# lint with eslint
+$ yarn lint
 ```
 
 ### Usage
 
-While inside the foodie/backend, run `yarn dev`. This will open a development server.
+Run `yarn dev`. This will start a development server.
 
 ## **Sponsor** ❤
 
@@ -101,10 +73,6 @@ Give a ⭐️ if you like this project!
 - GitHub: [@ikechukwu-peter](https://github.com/ikechukwu-peter)
 - Twitter: [@pete_iyke](https://twitter.com/pete_iyke)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/peter-ikechukwu/)
-
-## Acknowledgments
-
-- Hat tip to [Cloudinary](cloudinary.com) for their awesome API to store images and [MongoDB Atlas](mongodb.com) for their awesome DB.
 
 ## 📝 License
 
