@@ -13,7 +13,7 @@
 
 ## Live Demo ☁️
 
-[Live Demo Link](https://foodie-beta-eight.vercel.app/)
+[Live Demo Link](https://nip-psi.vercel.app/)
 
 ## Getting Started ☀️
 

@@ -1,8 +1,10 @@
 {
-  "name": "frontend",
-  "private": true,
-  "version": "0.0.0",
+  "name": "nip",
+  "private": false,
+  "version": "1.0.0",
   "type": "module",
+  "description": "A secure URL shortener with qrcode, password protection and expiration time",
+  "repository": "https://github.com/ikechukwu-peter/nip-api.git",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
