@@ -60,10 +60,10 @@ export const Account = () => {
           )}
           <div className="my-2 md:my-4">
             <AnalyticsChart
-              labels={data?.resource.urls.map(
+              labels={data?.resource?.urls.map(
                 (d: { urls: string; clicks: number }) => d.urls
               )}
-              data={data?.resource.urls.map(
+              data={data?.resource?.urls.map(
                 (c: { urls: string; clicks: number }) => c.clicks
               )}
             />
