@@ -15,7 +15,7 @@ export const Header = () => {
   return (
     <header className="sticky top-0 z-50  ">
       <nav className="flex w-full items-center justify-between  bg-gradient-to-r from-200 to-800 py-2 text-100 shadow-lg hover:text-100 focus:text-100">
-        <div className="flex w-full flex-wrap items-center justify-between px-6 max-w-7xl ">
+        <div className="flex w-full flex-wrap items-center justify-between px-6 ">
           <div className="flex w-full items-center justify-between">
             <h2 className="text-100 font-bold text-xl hover:text-300  transition duration-150 ease-in-out">
               <NavLink to="/">Nip</NavLink>
