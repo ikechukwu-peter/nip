@@ -33,7 +33,6 @@ export const Login = () => {
       return setError("Invalid email address");
     }
 
-    console.log(state);
     await login({ email: state });
     setState("");
     setError("");
@@ -52,6 +51,7 @@ export const Login = () => {
           <h2 className="text-500 font-bold ">
             Welcome, enter your email to login
           </h2>
+          <span className="text-500 text-sm">You do not have to sign up</span>
           <Input
             placeholder="Enter your Email Address"
             type="text"
